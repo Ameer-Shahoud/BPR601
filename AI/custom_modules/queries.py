@@ -1,3 +1,5 @@
+%%writefile queries.py
+
 gdelt_gdp_query = """
 with gdp_data AS (
   SELECT
