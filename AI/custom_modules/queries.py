@@ -136,7 +136,7 @@ SELECT
   sum(AvgTone  * gdp / total_gdp) as sum_avgtone,
 FROM
   gdelt_with_gdp
-where EXTRACT(YEAR FROM event_date) > 1979
+where EXTRACT(YEAR FROM event_date) > 2000
 group by event_date
 order by event_date
 """
